@@ -2,7 +2,7 @@
 
 An end-to-end deep learning framework designed to model, clean, and forecast network traffic volume using synthetic time-series sequences and optimized Gated Recurrent Unit (GRU) networks.
 
-## 📌 Project Architecture & Workflow
+## Project Architecture & Workflow
 This repository implements a complete machine learning pipeline divided into four main operational phases:
 [Raw Synthetic Data] ➔ [Preprocessing Pipeline] ➔ [Sliding Window Generator] ➔ [GRU Model] ➔ [Evaluation]
 ### 1. Data Generation & Characteristics (`Dataset.csv`)
@@ -34,7 +34,7 @@ Since standard deep networks do not naturally comprehend order, the continuous c
 
 یک چارچوب یادگیری عمیق گام‌به‌گام برای مهندسی داده، پاک‌سازی و پیش‌بینی پویای حجم ترافیک شبکه با استفاده از سری‌های زمانی شبیه‌سازی‌شده و معماری بهینه شبکه عصبی GRU.
 
-## 📌 معماری و مراحل اجرای پروژه
+## معماری و مراحل اجرای پروژه
 این پروژه شامل یک خط لوله (Pipeline) کامل یادگیری ماشین است که فرآیند خود را در ۴ فاز اصلی جلو می‌برد:
 ### ۱. ساختار داده‌های اولیه (`Dataset.csv`)
 پروژه از یک مجموعه داده ساختاریافته دستی شامل **۹۴,۲۷۲ سطر** و **۷ ستون** استفاده می‌کند که رفتار بسته‌های واقعی شبکه را بازسازی می‌کند:
