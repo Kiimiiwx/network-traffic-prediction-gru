@@ -1,0 +1,26 @@
+# Cache folders
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Large Dataset Files (Ignore original and cleaned datasets to keep repo light)
+*.csv
+*.hash
+
+# Saved Models and Weights
+*.keras
+*.h5
+
+# Generated Results and Images
+*.jpg
+*.png
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.swp
